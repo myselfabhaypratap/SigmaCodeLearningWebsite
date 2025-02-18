@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SigmaCode</title>
+  <!-- Link to External CSS File -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div id="profileSection">
+        <img id="profilePhoto" src="" alt="Profile Photo" class="profile-photo">
+    <div>SigmaCode Logo</div>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Internships</a>
+      <a href="#">Courses</a>
+      <a href="#">Users</a>
+      <a href="#">Services</a>
+      <button id="loginBtn">Login</button>
+      <button id="signupBtn">Sign Up</button>
+    </nav>
+  </header>
+
+  <!-- Login Modal -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Login</h2>
+      <form id="loginForm">
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Password" required>
+        <button type="submit">Login</button>
+      </form>
+      <p>Or login with:</p>
+      <button class="social-login">Mobile Number</button>
+      <button class="social-login">Google</button>
+    </div>
+  </div>
+
+  <!-- Signup Modal -->
+  <div id="signupModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Sign Up</h2>
+      <form id="signupForm">
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="password" placeholder="Set Password" required>
+        <input type="file" id="profilePhoto" accept="image/*">
+        <button type="submit">Sign Up</button>
+      </form>
+    </div>
+  </div>
+
+
+  <section class="hero-banner1">
+    <h1>Practice your skills</h1>
+    <p>Lay the foundation for your future prospects and dreams with the skills for excellence with CodeAlpha.</p>
+    <button>Find courses</button>
+  </section>
+
+  <section class="hero-banner2">
+      <h1> Our Virtual Internships For Remote Learning.</h1>
+      <p>SigmaCode offers you the opportunity to enroll Web Development programs at this platform.</p>
+      <button>Internships</button>
+      </section>
+  
+
+<section class="categories">
+    <div class="category1">
+      <h3>Web Development</h3>
+      <p>CodeAlpha offers you the opportunity to enroll Web Development programs at this platform.</p>
+      <p>7 Courses</p>
+      <button class="enrollBtn">Enroll Now</button>
+    </div>
+    <div class="category2">
+      <h3>App Development</h3>
+      <p>CodeAlpha offers you the opportunity to enroll App Development programs at this platform.</p>
+      <p>4 Courses</p>
+      <button class="enrollBtn">Enroll Now</button>
+    </div>
+    <div class="category3">
+      <h3>Java Programming</h3>
+      <p>CodeAlpha offers you the opportunity to enroll Java Programming programs at this platform.</p>
+      <p>8 Courses</p>
+      <button class="enrollBtn">Enroll Now</button>
+    </div>
+    <div class="category4">
+      <h3>Python Programming</h3>
+      <p>CodeAlpha offers you the opportunity to enroll Python Programming programs at this platform.</p>
+      <p>8 Courses</p>
+      <button class="enrollBtn">Enroll Now</button>
+    </div>
+    <div class="category5">
+        <h3>C Programming</h3>
+        <p>CodeAlpha offers you the opportunity to enroll C Programming programs at this platform.</p>
+        <p>3 Courses</p>
+        <button class="enrollBtn">Enroll Now</button>
+      </div>
+      <div class="category6">
+        <h3>C++ Programming</h3>
+        <p>CodeAlpha offers you the opportunity to enroll C++ Programming programs at this platform.</p>
+        <p>2 Courses</p>
+        <button class="enrollBtn">Enroll Now</button>
+      </div>
+  </section>
+
+  <section class="about-banner">
+    <h2>About Us</h2>
+    <p>WHY CHOOSE US ?</p>
+    <p>SigmaCode leads in Ed-Tech, the country's quickest-growing pro training platform. We're all about shaping future tech creators. Our top internships and certifications show awesome results: Over 1,29,000+ students finished our internships. 95% of certified students boosted practical tech skills. Learning by doing: real projects, real skills. Flexibility for learning at your pace. Our strong alumni network offers support and job help. Partnerships with top tech firms add value. At CodeAlpha, we're building tech leaders and showing success in every story.</p>
+  </section>
+
+  <section class="about-banner">
+    <h2>Our Popular Courses</h2>
+    <p> Explore Our Courses and Choose your Course according to your Needs.</p>
+    <button>Courses</button>
+    </section>
+
+  <section class="popular-courses">
+    <div class="course1">
+      <h3>Web Development Internship</h3>
+      <p>Duration : 1 Month</p>
+      <p>4 Weeks</p>
+      <p>Beginner to Advance</p>
+      <button class="enrollBtn">Register</button>
+      <p>4 Projects</p>
+      <p>70.05K+ Students</p>
+    </div>
+    <div class="course2">
+      <h3>App Development Internship</h3>
+      <p>Duration : 3 Month</p>
+      <p>4 Weeks</p>
+      <p>Beginner to Advance</p>
+      <button class="enrollBtn">Register</button>
+      <p>4 Projects</p>
+      <p>30.09K+ Students</p>
+    </div>
+    <div class="course3">
+      <h3>Java Development Internship</h3>
+      <p>Duration : 1 Month</p>
+      <p>4 Weeks</p>
+      <p>Beginner to Advance</p>
+      <button class="enrollBtn">Register</button>
+      <p>4 Projects</p>
+      <p>40.45K+ Students</p>
+    </div>
+    <div class="course4">
+        <h3>AI & Machine Learning Internship</h3>
+        <p>Duration : 1 Month</p>
+        <p>5 Weeks</p>
+        <p>Basics to Beginner</p>
+        <button class="enrollBtn">Register</button>
+        <p>2 Projects</p>
+        <p>20K+ Students</p>
+      </div>
+  </section>
+
+  <section class="video-banner">
+    <h2>257.25K+ Registrations</h2>
+    <div class="stats">
+      <div>
+        <h3>160.69K+</h3>
+        <p>Participants</p>
+      </div>
+      <div>
+        <h3>99.92%</h3>
+        <p>Satisfaction Rate</p>
+      </div>
+      <div>
+        <h3>23+</h3>
+        <p>Countries</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email Address" required>
+      <input type="text" placeholder="WhatsApp Number">
+      <input type="text" placeholder="Phone Number">
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <div>
+      <a href="#">Home</a>
+      <a href="#">About us</a>
+      <a href="#">Learning </a>
+      <a href="#">Affiliate Program</a>
+    </div>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Users</a>
+      <a href="#">Contact us</a>
+      <a href="#">FAQ</a>
+    </div>
+    <div>
+      <p>Follow us</p>
+      <!-- Add social media icons here -->
+    </div>
+  </footer>
+  
+  <script>
+    // JavaScript for Modal Functionality
+    const loginBtn = document.getElementById('loginBtn');
+    const signupBtn = document.getElementById('signupBtn');
+    const loginModal = document.getElementById('loginModal');
+    const signupModal = document.getElementById('signupModal');
+    const closeBtns = document.querySelectorAll('.close');
+    const profilePhotoUpload = document.getElementById('profilePhotoUpload');
+    const profilePhotoDisplay = document.getElementById('profilePhoto');
+    const signupForm = document.getElementById('signupForm');
+
+    // open Modals
+    loginBtn.addEventListener('click', () => {
+      loginModal.style.display = 'block';
+    });
+
+    signupBtn.addEventListener('click', () => {
+      signupModal.style.display = 'block';
+    });
+
+    // close Modals
+    closeBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        loginModal.style.display = 'none';
+        signupModal.style.display = 'none';
+      });
+    });
+
+    window.addEventListener('click', (event) => {
+      if (event.target === loginModal || event.target === signupModal) {
+        loginModal.style.display = 'none';
+        signupModal.style.display = 'none';
+      }
+    });
+    
+    
+    // Handle Profile Photo Upload
+    signupForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const file = profilePhotoUpload.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = function (e) {
+          // Save the photo URL to localStorage
+          localStorage.setItem('profilePhoto', e.target.result);
+          // Display the photo in the header
+          profilePhotoDisplay.src = e.target.result;
+          alert('Signup successful!');
+          signupModal.style.display = 'none';
+        };
+        reader.readAsDataURL(file);
+      }
+    });
+
+    // Load Profile Photo on Page Load
+    window.addEventListener('load', () => {
+      const savedPhoto = localStorage.getItem('profilePhoto');
+      if (savedPhoto) {
+        profilePhotoDisplay.src = savedPhoto;
+      }
+    });
+  </script>
+
+</body>
+</html>
